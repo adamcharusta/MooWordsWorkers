@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <RootNamespace>MooWordsWorkers.Workers</RootNamespace>
+    <AssemblyName>MooWordsWorkers.Workers</AssemblyName>
+    <UserSecretsId>dotnet-Worker-2c826f1b-209f-4d6e-a41e-ba3695ab68e1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmailService\EmailService.csproj"/>
+    <ProjectReference Include="..\NotificationService\NotificationService.csproj"/>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>MooWordsWorkers.EmailService</RootNamespace>
+    <AssemblyName>MooWordsWorkers.EmailService</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj"/>
+  </ItemGroup>
+
+</Project>
